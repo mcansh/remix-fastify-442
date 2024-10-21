@@ -9,10 +9,12 @@ declare module "@remix-run/server-runtime" {
 }
 
 export default defineConfig({
+  base: "/platform/",
   plugins: [
     remix({
+      basename: "/platform/",
       future: {
-        unstable_singleFetch: true,
+        v3_singleFetch: true,
       },
     }),
     tsconfigPaths(),
