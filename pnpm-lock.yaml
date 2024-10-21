@@ -15,8 +15,8 @@ importers:
         specifier: ^7.0.4
         version: 7.0.4
       '@mcansh/remix-fastify':
-        specifier: 3.4.0
-        version: 3.4.0(@remix-run/node@2.13.1(typescript@5.6.3))(fastify@4.28.1)(vite@5.4.9(@types/node@22.7.7))
+        specifier: https://pkg.pr.new/@mcansh/remix-fastify@442
+        version: https://pkg.pr.new/@mcansh/remix-fastify@442(@remix-run/node@2.13.1(typescript@5.6.3))(fastify@4.28.1)(vite@5.4.9(@types/node@22.7.7))
       '@remix-run/node':
         specifier: ^2.13.1
         version: 2.13.1(typescript@5.6.3)
@@ -773,8 +773,9 @@ packages:
     resolution: {integrity: sha512-9I2Zn6+NJLfaGoz9jN3lpwDgAYvfGeNYdbAIjJOqzs4Tpc+VU3Jqq4IofSUBKajiDS8k9fZIg18/z13mpk1bsA==}
     engines: {node: '>=8'}
 
-  '@mcansh/remix-fastify@3.4.0':
-    resolution: {integrity: sha512-VocPxXVn0Oe/QYghM5D1NhroSoJ2WYYNsToyODiDMaF2g7DhVUrQvmtVctcDdYB/Yc2l8KRakt63VUKWewrEBg==}
+  '@mcansh/remix-fastify@https://pkg.pr.new/@mcansh/remix-fastify@442':
+    resolution: {tarball: https://pkg.pr.new/@mcansh/remix-fastify@442}
+    version: 3.4.0
     engines: {node: '>=18.0.0'}
     peerDependencies:
       '@remix-run/node': ^2.0.0
@@ -4402,7 +4403,7 @@ snapshots:
 
   '@lukeed/ms@2.0.2': {}
 
-  '@mcansh/remix-fastify@3.4.0(@remix-run/node@2.13.1(typescript@5.6.3))(fastify@4.28.1)(vite@5.4.9(@types/node@22.7.7))':
+  '@mcansh/remix-fastify@https://pkg.pr.new/@mcansh/remix-fastify@442(@remix-run/node@2.13.1(typescript@5.6.3))(fastify@4.28.1)(vite@5.4.9(@types/node@22.7.7))':
     dependencies:
       '@fastify/middie': 8.3.3
       '@fastify/static': 7.0.4
